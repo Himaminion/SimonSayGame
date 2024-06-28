@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+
+}
+.box-container{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    border: 5px solid black;
+    margin: 3%;
+    padding: 1%;
+}
+.pink{
+    background-color: palevioletred;
+}
+.blue{
+    background-color: aqua;
+}
+.orange{
+    background-color: orange;
+}
+.violet{
+    background-color: blueviolet;
+}
+.gflash{
+    background-color: white;
+}
+.uflash{
+    background-color: greenyellow;
+}
